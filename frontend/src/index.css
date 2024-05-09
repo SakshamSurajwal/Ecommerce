@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sarvopari{
+  background-image: linear-gradient(white,lightgreen);
+}
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar{
+  font-family: 'Pangolin';
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 7px 4px -4px peru;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-size: 30px;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.footer{
+  font-family: 'Pangolin';
+  height: 114px;
+}
+
+.active{
+  border-bottom: 2px solid yellow;
+}
+
+.footer a{
+  padding: 8px;
+  text-decoration: none;
+  color: yellow;
+}
+
+.footer a:hover{
+  color: yellowgreen;
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
